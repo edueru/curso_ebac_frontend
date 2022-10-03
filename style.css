@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0px auto;
+
+
+
+}
+
+.cabecario {
+    background-color: #2f3640;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecario h1 {
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+.cabecario li {
+    display: inline;
+    padding: 16px;
+}
+
+.cabecario a {
+    text-decoration: none;
+    color: #f5f6fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+li :hover {
+    text-decoration: underline;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 40%;
+
+}
+
+section h2 {
+
+    color: black;
+
+    font-size: 32px;
+
+    font-weight: 900;
+
+}
+
+.artigos article {
+
+    width: 30%;
+
+    margin-bottom: 50px;
+
+    border: solid black;
+
+    border-radius: 15px;
+
+    border-width: 2px;
+
+
+
+
+}
+
+.artigos article h3 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigos img {
+    height: 280px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.artigos a {
+    background-color: blue;
+    color: #f5f6fa;
+    padding: 8px;
+    margin-top: 10px;
+    display: inline-block;
+    border: solid #2f3640;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+
+
+}
+
+
+
+.artigos p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigos a:hover {
+    background-color: #2f3640;
+    text-decoration: underline;
+}
+
+#esportes {
+    background-color: #00ff001a;
+}
+
+#esportes a {
+    background-color: #2E8B57;
+}
+
+#esportes article {
+    background-color: #006400;
+    color: white;
+}
+
+
+
+#esportes a:hover {
+    background-color: #2f3640;
+
+}
+
+#economia {
+    background-color: rgb(255, 250, 111, 0.5);
+}
+
+#economia a {
+    background-color: #ff9f1a;
+}
+
+#economia article {
+    background-color: #FFD700;
+}
+
+#economia a:hover {
+    background-color: #2f3640;
+
+}
+
+#animes {
+    background-color: #87CEEB;
+}
+
+#animes article {
+    background-color: #4169E1;
+    color: white;
+}
+
+#Tecnologia {
+    background-color: #a7a7a7;
+}
+
+#Tecnologia a {
+    background-color: black;
+
+}
+
+#Tecnologia a:hover {
+    background-color: #2f3640;
+}
+
+#Tecnologia article {
+    background-color: #1C1C1C;
+    color: white;
+}
